@@ -986,7 +986,7 @@ $HTML += @"
 # Save HTML report
 $HTML | Out-File -FilePath $ReportFile -Encoding UTF8
 
-Write-Host "`nHTML Documentation Complete!" -ForegroundColor Green
+Write-Host "HTML Documentation Complete!" -ForegroundColor Green
 Write-Host "Report saved to: $ReportFile" -ForegroundColor Yellow
 
 # Export to Excel using ImportExcel module or COM object
@@ -1032,10 +1032,10 @@ if (Get-Module -ListAvailable -Name ImportExcel) {
     Write-Host "CSV files saved to: $OutputPath" -ForegroundColor Yellow
 }
 
-Write-Host "`nOpening HTML report in default browser..." -ForegroundColor Cyan
+Write-Host "Opening HTML report in default browser..." -ForegroundColor Cyan
 Start-Process $ReportFile
 
-Write-Host "`n========================================" -ForegroundColor Green
+Write-Host "========================================" -ForegroundColor Green
 Write-Host "Documentation Complete!" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Green
 Write-Host "All files saved to: $OutputPath" -ForegroundColor Yellow
