@@ -38,6 +38,7 @@ $HTML = @"
 <html>
 <head>
     <title>Active Directory Infrastructure Documentation</title>
+     <title2>Author: Stephen McKee - IGTPLC</title2>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
         h1 { color: #003366; border-bottom: 3px solid #003366; padding-bottom: 10px; }
