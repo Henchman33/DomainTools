@@ -1,7 +1,7 @@
 # DomainTools
 AD Domain Inventory Testing Repo
 
-Active Directory Infrastructure Documentation Script - Enhanced Version 5
+h1 { color: #003366; border-bottom: 3px solid #003366; padding-bottom: 10px; } Active Directory Infrastructure Documentation Script - Enhanced Version 5
 Run this on a Domain Controller with appropriate permissions using PowerShell ISE.
 Exchange Module for on-prem will need to be imported on the Domain Controller yyou are running this script from.
 Go to a On-Prem Exchange Server, open PowerShell ISE as an admin.
